@@ -1,10 +1,17 @@
-// TODO: Include packages needed for this application
+const fs = require( 'fs' );
+
 
 // TODO: Create an array of questions for user input
 const questions = [];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// write file 'data' to output folder
+const writeToFile = ( fileName, data ) => {
+
+    fs.writeFile(`./output/${ fileName }`, data, ( error ) => {
+        if ( error ) throw err;
+        console.log( 'The file has been saved!' );
+        } );
+}
 
 // TODO: Create a function to initialize app
 function init() {}
