@@ -98,10 +98,12 @@ const generateMarkdown = ( { userName,  title, installation, usage, description,
 
   ${ usage }
   
-  ## **License** 
-  ### **${ license }** - [${ renderLicenseBadge( license ) }](${ renderLicenseLink( license ) })
+  ## **License**
+  <p>
+  ${ license } License
   
   ${ renderLicenseSection( license, userName ) }
+  </p>
   
   ## **Contributing**
 
