@@ -25,7 +25,7 @@ const renderLicenseSection = ( license, userName ) => {
   const thisYear = new Date().getFullYear();
 
   if ( license === 'MIT' ) { 
-    return `Copyright ${ thisYear } ${ userName }
+    return `Copyright &copy; ${ thisYear } ${ userName }
 
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
     
@@ -35,7 +35,7 @@ const renderLicenseSection = ( license, userName ) => {
   };
 
   if ( license === 'Apache 2.0' ) {
-    return `Copyright ${ thisYear } ${ userName }
+    return `Copyright &copy; ${ thisYear } ${ userName }
 
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
     
@@ -45,7 +45,7 @@ const renderLicenseSection = ( license, userName ) => {
   };
 
   if ( license === 'GPL 3.0' ) {
-    return `Copyright (C) ${ thisYear } ${ userName }
+    return `Copyright &copy; ${ thisYear } ${ userName }
 
     This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
@@ -56,7 +56,7 @@ const renderLicenseSection = ( license, userName ) => {
   };
 
   if ( license === 'BSD 3' ) { 
-    return `Copyright ${ thisYear } ${ userName }
+    return `Copyright &copy; ${ thisYear } ${ userName }
 
     Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
     
