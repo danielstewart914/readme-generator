@@ -116,8 +116,8 @@ const generateMarkdown = ( { userName,  title, installation, usage, description,
   ## **Questions**
   
   Contact me through one of the links below <br>
-  [GitHub](https://github.com/${ gitHub })<br>
-  [Email](mailto:${ email })`;
+  GitHub Profile - [${ gitHub }](https://github.com/${ gitHub })<br>
+  Email - [${ email }](mailto:${ email })`;
 
 }
 
